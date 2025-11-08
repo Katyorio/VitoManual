@@ -103,3 +103,25 @@
   position: absolute;
   background: url("../../img/seta.png") no-repeat;
 }
+
+@media (max-width: 600px) {
+  .depoimento-conteudo1,
+  .depoimento-conteudo2 {
+    grid-template-columns: auto;
+  }
+  .imagem12 {
+    padding-left: 70px;
+  }
+  .imagem11 {
+    padding-left: 50px;
+  }
+
+  .depoimento-detalhe {
+    padding: 0px;
+  }
+  .depoimento-conteudo1 h2,
+  .depoimento-conteudo2 h2 {
+    padding: 0px;
+    text-align: center;
+  }
+}

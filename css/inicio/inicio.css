@@ -11,7 +11,7 @@
 
 .inicio img {
   max-width: 100%;
-  max-height: 100;
+  max-height: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -46,4 +46,36 @@
   color: #0b3b3b;
   font-size: 20px;
   font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .inicio {
+    grid-template-columns: auto;
+  }
+  .inicio img {
+    width: 100%;
+    height: 500px;
+  }
+  .inicio-conteudo {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .inicio-conteudo h1,
+  .inicio-conteudo p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .inicio img {
+    width: 100%;
+    height: 260px;
+  }
+  .inicio-conteudo h1 {
+    font-size: 2rem;
+  }
+  .inicio-conteudo span {
+    display: none;
+  }
 }

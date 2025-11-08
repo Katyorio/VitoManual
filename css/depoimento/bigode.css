@@ -7,3 +7,15 @@
   max-width: 225px;
   padding-left: 440px;
 }
+
+@media (max-width: 1000px) {
+  .bigode img {
+    padding-left: 340px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bigode img {
+    padding-left: 50px;
+  }
+}

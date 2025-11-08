@@ -19,15 +19,30 @@
   font-size: 1.5rem;
   font-weight: 600;
   color: #0b3b3b;
+
   font-family: "Poppins";
 }
 
 .form input,
 .form select {
-  padding: 10px 50px;
+  padding: 10px 25px;
   font-size: 1.25rem;
 }
 
 .form {
   align-content: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .comprar {
+    grid-template-columns: auto;
+    place-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .comprar-imagem img {
+    display: none;
+  }
 }

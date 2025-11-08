@@ -30,3 +30,9 @@
   width: 123px;
   border-radius: 4px;
 }
+
+@media (max-width: 600px) {
+  .nav a {
+    gap: 30px;
+  }
+}
