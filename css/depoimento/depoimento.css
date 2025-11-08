@@ -1,0 +1,105 @@
+.depoimento-bg {
+  background: #0b3b3b;
+}
+
+.depoimento {
+  padding-top: 120px;
+  padding-bottom: 19px;
+}
+
+.depoimento2 {
+  padding-top: 19px;
+  padding-bottom: 69px;
+}
+
+.depoimento-conteudo1 {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+  border-radius: 4px;
+  background-color: #bdc4b3;
+  overflow: hidden;
+  align-items: center;
+}
+
+.depoimento-conteudo2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  border-radius: 4px;
+  background-color: #bdc4b3;
+  overflow: hidden;
+  align-items: center;
+  gap: 0px 2px;
+}
+
+.depoimento-conteudo1 img {
+  max-width: 254px;
+  max-height: 292px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.depoimento-conteudo2 img {
+  max-width: 254px;
+  max-height: 292px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.depoimento-conteudo1 h2 {
+  padding-left: 50px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #0b3b3b;
+  font-size: 30px;
+}
+
+.depoimento-conteudo2 h2 {
+  padding-right: 50px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #0b3b3b;
+  font-size: 30px;
+  text-align: end;
+}
+
+.depoimento-detalhe {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+}
+
+.depoimento-detalhe p {
+  align-self: center;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 400;
+  position: relative;
+  grid-column: 3/-1;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #0b3b3b;
+}
+
+.depoimento-detalhe img {
+  width: 50px;
+  align-self: end;
+  justify-self: center;
+  display: inline-block;
+}
+
+.depoimento-imagem2 {
+  width: 50px;
+  align-self: end;
+  justify-self: center;
+  display: inline-block;
+  transform: rotateY(180deg);
+}
+
+.depoimento-conteudo1::after {
+  content: "";
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background: url("../../img/seta.png") no-repeat;
+}

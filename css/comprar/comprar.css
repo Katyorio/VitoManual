@@ -1,0 +1,33 @@
+.comprar-bg {
+  background: #bdc4b3;
+}
+
+.comprar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.comprar-imagem img {
+  max-width: 600px;
+  max-height: 492px;
+  padding-top: 38px;
+  padding-right: 72px;
+}
+
+.form label {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0b3b3b;
+  font-family: "Poppins";
+}
+
+.form input,
+.form select {
+  padding: 10px 50px;
+  font-size: 1.25rem;
+}
+
+.form {
+  align-content: center;
+}

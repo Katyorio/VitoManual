@@ -1,0 +1,20 @@
+/* Reset Global */
+@import "./reset/reset.css";
+
+/* Header */
+@import "./header/header.css";
+
+/* inicio */
+@import "./inicio/inicio.css";
+
+/* depoimento */
+@import "./depoimento/depoimento.css";
+
+/* bigode */
+@import "./depoimento/bigode.css";
+
+/* comprar */
+@import "./comprar/comprar.css";
+
+/* utilitarios */
+@import "./utilitarios/utilitarios.css";

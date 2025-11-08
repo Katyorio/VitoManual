@@ -1,0 +1,32 @@
+.header-bg {
+  background: #0b3b3b;
+  box-shadow: inset 0px -15px #bdc4b3, inset 0px 15px #bdc4b3;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: inline-block;
+  align-content: center;
+}
+
+.nav a {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #bdc4b3;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #0b3b3b;
+  text-transform: uppercase;
+}
+.logo img {
+  display: block;
+  height: 123px;
+  width: 123px;
+  border-radius: 4px;
+}
